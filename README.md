@@ -1,1 +1,1 @@
-# cis-133-w
+# JavaScript "cheat sheet" 
