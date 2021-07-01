@@ -1,0 +1,408 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>LAB 2 Assignment</title>
+        <style type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                }
+            h2 {
+                color: rgb(74, 71, 71);
+            }
+             table th {
+                 background-color: rgb(17, 237, 237);
+             }
+            
+            </style>
+        <script>
+            const firstName = "Paddy";
+            const lastName = "Larkin";
+            const title = "Lab 2 assignment";
+
+            console.log(`This is ${firstName} ${lastName}'s ${title}.` );
+        </script>
+    </head>
+
+    <body>
+        <h1>LAB 2 Assignment</h1>
+        <h2>What are the types of the following pieces of data: "", 0, 1, "0", "1", [], {}, null, undefined, NaN, Infinity, console, console.log, document, document.write, true, false.
+        </h2>
+        
+        <table border="1px">
+            <tbody>
+            <tr>
+            <th>Value</th>
+            <th>Type</th>
+            </tr>
+            <tr>
+            <td>""</td>
+            <td>
+            <script>document.write(typeof "")</script>
+            </td>
+            </tr>
+            <tr>
+            <td>0</td>
+            <td>
+            <script>document.write(typeof 0)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>
+            <script>document.write(typeof 1)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>"0"</td>
+            <td>
+            <script>document.write(typeof "0")</script>
+            </td>
+            </tr>
+            <tr>
+            <td>"1"</td>
+            <td>
+            <script>document.write(typeof "1")</script>
+            </td>
+            </tr>
+            <tr>
+            <td>[]</td>
+            <td>
+            <script>document.write(typeof [])</script>
+            </td>
+            </tr>
+            <tr>
+            <td>{}</td>
+            <td>
+            <script>document.write(typeof {})</script>
+            </td>
+            </tr>
+            <tr>
+            <td>null</td>
+            <td>
+            <script>document.write(typeof null)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>undefined</td>
+            <td>
+            <script>document.write(typeof undefined)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>NaN</td>
+            <td>
+            <script>document.write(typeof NaN)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>Infinity</td>
+            <td>
+            <script>document.write(typeof Infinity)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>console</td>
+            <td>
+            <script>document.write(typeof console)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>console.log</td>
+            <td>
+            <script>document.write(typeof console.log)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>document</td>
+            <td>
+            <script>document.write(typeof document)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>document.write</td>
+            <td>
+            <script>document.write(typeof document.write)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>true</td>
+            <td>
+            <script>document.write(typeof true)</script>
+            </td>
+            </tr>
+            <tr>
+            <td>false</td>
+            <td>
+            <script>document.write(typeof false)</script>
+            </td>
+            </tr>
+            </tbody>
+            </table>
+
+            <h2>For the five elementary arithmetic operations (-, +, *, /, %), when given two strings like "2" and "5", or one string and one number, like "2" and 5 or 2 and "5", what are the results?</h2>
+
+            <table border="1px">
+                <tbody>
+                <tr>
+                <th>Operation</th>
+                <th>Result</th>
+                </tr>
+                <tr>
+                <td>"2" + "5" =</td>
+                <td>
+                <script>document.write("2" + "5")</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"2" + 5 =</td>
+                <td>
+                <script>document.write("2" + 5)</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"2" * "5" =</td>
+                <td>
+                <script>document.write("2" * "5")</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"2" * 5 =</td>
+                <td>
+                <script>document.write("2" * 5)</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"2" / "5" =</td>
+                <td>
+                <script>document.write("2" / "5")</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"2" / 5 =</td>
+                <td>
+                <script>document.write("2" / 5 )</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"2" - "5" =</td>
+                <td>
+                <script>document.write("2" - "5")</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"2" - 5 =</td>
+                <td>
+                <script>document.write("2" - 5 )</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"5" % "2" =</td>
+                <td>
+                <script>document.write("5" % "2")</script>
+                </td>
+                </tr>
+                <tr>
+                <td>"5" % 2 =</td>
+                <td>
+                <script>document.write("5" % 2)</script>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+
+                <h2>Is 10 + 5 % 2 the same as (10 + 5) % 2, or 10 + (5 % 2)? How about 10 * 5 % 2?</h2>
+
+                <table border="1px">
+                    <tbody>
+                    <tr>
+                    <th>Order of Operations</th>
+                    <th>Result</th>
+                    </tr>
+                    <tr>
+                    <td>10 + 5 % 2 =</td>
+                    <td>
+                    <script>document.write(10 + 5 % 2)</script>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>(10 + 5) % 2 =</td>
+                    <td>
+                    <script>document.write((10 + 5) % 2)</script>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>10 * 5 % 2 =</td>
+                    <td>
+                    <script>document.write(10 * 5 % 2)</script>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>10 * (5 % 2) =</td>
+                    <td>
+                    <script>document.write(10 * (5 % 2))</script>
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+
+                    <h2>Is 0 == 1 ? "fish" : "duck" the same as (0 == 1) ? "fish" : "duck", or 0 == (1 ? "fish" : "duck")?</h2>
+                    <table border="1px">
+                        <tbody>
+                        <tr>
+                        <th>Conditional (ternary)</th>
+                        <th>Result</th>
+                        </tr>
+                        <tr>
+                        <td>0 == 1 ? "fish" : "duck"</td>
+                        <td>
+                        <script>document.write(0 == 1 ? "fish" : "duck")</script>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>(0 == 1) ? "fish" : "duck"</td>
+                        <td>
+                        <script>document.write((0 == 1) ? "fish" : "duck")</script>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>0 == (1 ? "fish" : "duck")</td>
+                        <td>
+                        <script>document.write(0 == (1 ? "fish" : "duck"))</script>
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>
+
+                        <h2>Which of these values are truthy and which are falsy: 0, 1, 2, "0", "1", "2", "cow", "", null, undefined, NaN, Infinity, [], [0], {}, {vegetable: "cabbage"}.</h2>
+
+                        <table border="1px">
+                            <tbody>
+                            <tr>
+                            <th>Value</th>
+                            <th>Truthy/Falsy</th>
+                            </tr>
+                            <tr>
+                            <td>0</td>
+                            <td>
+                            <script>document.write((0)?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>1</td>
+                            <td>
+                            <script>document.write((1)?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>2</td>
+                            <td>
+                            <script>document.write((2)?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>"0"</td>
+                            <td>
+                            <script>document.write(("0")?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>"1"</td>
+                            <td>
+                            <script>document.write(("1")?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>"2"</td>
+                            <td>
+                            <script>document.write(("2")?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>"cow"</td>
+                            <td>
+                            <script>document.write(("cow")?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>""</td>
+                            <td>
+                            <script>document.write(("")?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>null</td>
+                            <td>
+                            <script>document.write((null)?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>undefined</td>
+                            <td>
+                            <script>document.write((undefined)?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>NaN</td>
+                            <td>
+                            <script>document.write((NaN)?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>Infinity</td>
+                            <td>
+                            <script>document.write((Infinity)?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>[]</td>
+                            <td>
+                            <script>document.write(([])?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>[0]</td>
+                            <td>
+                            <script>document.write(([0])?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>{}</td>
+                            <td>
+                            <script>document.write(({})?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>{vegetable: "cabbage"}</td>
+                            <td>
+                            <script>document.write(({vegetable: "cabbage"})?"Truthy":"Falsy")</script>
+                            </td>
+                            </tr>
+                            </tbody>
+                            </table>
+
+                            <h2>What are the return results from the following expressions: "dog" || "cat" || "cow"; "dog" &amp;&amp; "cat" &amp;&amp; "cow".</h2>
+
+                            <table border="1px">
+                                <tbody>
+                                <tr>
+                                <th>Short Circuit Evaluation</th>
+                                <th>Result</th>
+                                </tr>
+                                <tr>
+                                <td>"dog" || "cat" || "cow"</td>
+                                <td>
+                                <script>document.write("dog" || "cat" || "cow")</script>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td>"dog" &amp;&amp; "cat" &amp;&amp; "cow"</td>
+                                <td>
+                                <script>document.write("dog" && "cat" && "cow")</script>
+                                </td>
+                                </tr>
+                                </tbody>
+                                </table>
+        
+            
+    </body>
+</html>
