@@ -1,1 +1,1 @@
-# JavaScript "cheat sheet" 
+# JavaScript reference guide
